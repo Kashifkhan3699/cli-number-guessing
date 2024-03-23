@@ -17,7 +17,7 @@ const guessedNumber = await inquirer.prompt([
     {
         name : 'userGuessedNumber',
         type : 'number',
-        message : 'Please guess a number between (1 To 5)'
+        message : 'Please guessed a number between (1 To 5)'
     }
 ])
 
@@ -25,6 +25,6 @@ if (guessedNumber.userGuessedNumber === ramdomNnuber) {
     console.log('congtratulation! you guess a right number');
     
 }else {
-    console.log('You guess a worng number');
+    console.log('You guessed a worng number');
     
 }
